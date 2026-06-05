@@ -5,34 +5,34 @@
 
 /* ---------- Custom Properties ---------- */
 :root {
-  /* Brand Colors — AMG-2 Brand Guide v1.0 */
-  --color-deep-earth: #2C3E2D;
-  --color-deep-earth-dark: #1E2B1F;
-  --color-deep-earth-light: #3D5440;
-  --color-mineral-teal: #1A7A6B;
-  --color-mineral-teal-light: #219A87;
-  --color-mineral-teal-dark: #146356;
-  --color-ore-gold: #C9953C;
-  --color-ore-gold-light: #DBAE5E;
-  --color-ore-gold-dark: #A87A2E;
-  --color-geode-white: #F5F2EB;
-  --color-geode-white-dark: #E8E3D9;
+  /* Brand Colors — GEO v2.0 (AI / Digital Marketing) */
+  --color-deep-earth: #0F172A;
+  --color-deep-earth-dark: #0B1120;
+  --color-deep-earth-light: #1E293B;
+  --color-mineral-teal: #3B82F6;
+  --color-mineral-teal-light: #60A5FA;
+  --color-mineral-teal-dark: #2563EB;
+  --color-ore-gold: #8B5CF6;
+  --color-ore-gold-light: #A78BFA;
+  --color-ore-gold-dark: #7C3AED;
+  --color-geode-white: #F1F5F9;
+  --color-geode-white-dark: #E2E8F0;
   --color-white: #ffffff;
 
   /* Semantic Colors */
-  --color-text-primary: var(--color-deep-earth-dark);
-  --color-text-secondary: #4A5A4A;
-  --color-text-on-dark: var(--color-geode-white);
-  --color-text-muted: #7A8A7A;
+  --color-text-primary: #1E293B;
+  --color-text-secondary: #475569;
+  --color-text-on-dark: #F1F5F9;
+  --color-text-muted: #94A3B8;
   --color-bg-primary: var(--color-white);
   --color-bg-secondary: var(--color-geode-white);
   --color-bg-dark: var(--color-deep-earth-dark);
   --color-bg-green: var(--color-deep-earth);
-  --color-accent: var(--color-ore-gold);
-  --color-accent-hover: var(--color-ore-gold-light);
-  --color-border: #D4D0C8;
-  --color-success: #2E7D32;
-  --color-error: #C62828;
+  --color-accent: var(--color-mineral-teal);
+  --color-accent-hover: var(--color-mineral-teal-light);
+  --color-border: #CBD5E1;
+  --color-success: #059669;
+  --color-error: #DC2626;
 
   /* Typography — Brand: IBM Plex Sans (body), Crimson Pro (headlines), IBM Plex Mono (data) */
   --font-heading: 'Crimson Pro', Georgia, 'Times New Roman', serif;
