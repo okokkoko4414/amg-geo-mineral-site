@@ -1,6 +1,12 @@
 {
+  "redirects": [
+    { "source": "/about/mineral-exploration-company(.*)", "destination": "/pages/about$1", "permanent": true },
+    { "source": "/services/mineral-exploration-services(.*)", "destination": "/pages/services$1", "permanent": true },
+    { "source": "/about/amg-geo(.*)", "destination": "/pages/about$1", "permanent": true },
+    { "source": "/services/geo-services(.*)", "destination": "/pages/services$1", "permanent": true }
+  ],
   "rewrites": [
-    { "source": "/about/", "destination": "/about/mineral-exploration-company/" },
+    { "source": "/about", "destination": "/pages/about" },
     { "source": "/services", "destination": "/pages/services" },
     { "source": "/contact", "destination": "/pages/contact" }
   ],

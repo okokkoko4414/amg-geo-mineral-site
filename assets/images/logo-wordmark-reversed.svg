@@ -43,10 +43,10 @@
     <text x="450" y="0" class="rv-company-name">Mineral</text>
 
     <!-- Subtitle -->
-    <text x="0" y="45" class="rv-sub-text">Advanced Mineral Group</text>
+    <text x="0" y="45" class="rv-sub-text">Generative Engine Optimization</text>
 
     <!-- Tagline -->
-    <text x="0" y="90" class="rv-tagline">Exploring Deeper. Discovering More.</text>
+    <text x="0" y="85" class="rv-tagline">Visible in AI Search. Trusted by Brands.</text>
 
     <!-- Decorative line -->
     <line x1="0" y1="65" x2="320" y2="65" stroke="#C9953C" stroke-width="1.5" opacity="0.4"/>

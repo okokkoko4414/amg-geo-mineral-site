@@ -2,31 +2,35 @@
   <defs>
     <style>
       .company-name { font-family: 'Inter', 'Arial', 'Helvetica', sans-serif; font-weight: 700; font-size: 56px; fill: #2C3E2D; }
-      .tagline { font-family: 'Inter', 'Arial', 'Helvetica', sans-serif; font-weight: 400; font-size: 18px; fill: #5B6770; letter-spacing: 0.05em; }
-      .sub-text { font-family: 'Inter', 'Arial', 'Helvetica', sans-serif; font-weight: 500; font-size: 20px; fill: #1A7A6B; }
+      .tagline { font-family: 'Inter', 'Arial', 'Helvetica', sans-serif; font-weight: 400; font-size: 16px; fill: #5B6770; letter-spacing: 0.05em; }
+      .sub-text { font-family: 'Inter', 'Arial', 'Helvetica', sans-serif; font-weight: 500; font-size: 18px; fill: #1A7A6B; }
     </style>
   </defs>
 
-  <!-- Core Mark (left side) -->
+  <!-- Core Mark (left side) — stylized AI node / hexagon representing connected intelligence -->
   <g transform="translate(40, 40) scale(0.7)">
     <defs>
-      <linearGradient id="swg1" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" stop-color="#2C3E2D"/>
-        <stop offset="100%" stop-color="#1A7A6B"/>
+      <linearGradient id="swg1" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#1A7A6B"/>
+        <stop offset="100%" stop-color="#2C3E2D"/>
       </linearGradient>
       <clipPath id="hexClip2">
         <polygon points="200,20 347,110 347,290 200,380 53,290 53,110"/>
       </clipPath>
     </defs>
     <polygon points="200,20 347,110 347,290 200,380 53,290 53,110"
-             fill="none" stroke="#2C3E2D" stroke-width="4"/>
+             fill="none" stroke="#1A7A6B" stroke-width="4"/>
     <polygon points="200,48 323,126 323,274 200,352 77,274 77,126"
-             fill="none" stroke="#2C3E2D" stroke-width="1.5" opacity="0.3"/>
+             fill="none" stroke="#1A7A6B" stroke-width="1.5" opacity="0.3"/>
     <g clip-path="url(#hexClip2)">
       <rect x="53" y="120" width="294" height="8" fill="url(#swg1)" rx="2"/>
-      <rect x="53" y="180" width="294" height="8" fill="#5B6770" rx="2"/>
-      <rect x="53" y="240" width="294" height="8" fill="#3B6B8A" rx="2"/>
+      <rect x="53" y="180" width="294" height="8" fill="#1A7A6B" rx="2"/>
+      <rect x="53" y="240" width="294" height="8" fill="#C9953C" rx="2"/>
     </g>
+    <!-- AI node dots -->
+    <circle cx="200" cy="60" r="6" fill="#C9953C"/>
+    <circle cx="280" cy="340" r="5" fill="#1A7A6B" opacity="0.6"/>
+    <circle cx="120" cy="340" r="5" fill="#1A7A6B" opacity="0.6"/>
   </g>
 
   <!-- Wordmark section (right side) -->
@@ -42,13 +46,13 @@
     <!-- Mineral -->
     <text x="450" y="0" class="company-name">Mineral</text>
 
-    <!-- Subtitle -->
-    <text x="0" y="45" class="sub-text">Advanced Mineral Group</text>
+    <!-- Subtitle — defining GEO -->
+    <text x="0" y="45" class="sub-text">Generative Engine Optimization</text>
 
     <!-- Tagline -->
-    <text x="0" y="90" class="tagline">Exploring Deeper. Discovering More.</text>
+    <text x="0" y="85" class="tagline">Visible in AI Search. Trusted by Brands.</text>
 
     <!-- Decorative line -->
-    <line x1="0" y1="65" x2="320" y2="65" stroke="#C9953C" stroke-width="1.5" opacity="0.4"/>
+    <line x1="0" y1="65" x2="350" y2="65" stroke="#C9953C" stroke-width="1.5" opacity="0.4"/>
   </g>
 </svg>

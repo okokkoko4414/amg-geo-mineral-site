@@ -1,6 +1,6 @@
 /* ============================================================
    AMG-GEO-Mineral -- Main Stylesheet
-   Earth-tone mining & geology company website
+   AI-native GEO (Generative Engine Optimization) marketing
    ============================================================ */
 
 /* ---------- Custom Properties ---------- */
@@ -498,44 +498,6 @@ p {
   display: flex;
   flex-wrap: wrap;
   gap: var(--space-4);
-}
-
-/* Hero -- Geological lines decoration */
-.hero__geology {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 40%;
-  height: 100%;
-  opacity: 0.06;
-  pointer-events: none;
-}
-
-.hero__geology-line {
-  position: absolute;
-  border: 1px solid var(--color-geode-white);
-  border-radius: 50%;
-}
-
-.hero__geology-line:nth-child(1) {
-  width: 300px;
-  height: 300px;
-  right: -50px;
-  bottom: -50px;
-}
-
-.hero__geology-line:nth-child(2) {
-  width: 200px;
-  height: 200px;
-  right: 20px;
-  bottom: 20px;
-}
-
-.hero__geology-line:nth-child(3) {
-  width: 400px;
-  height: 400px;
-  right: -100px;
-  bottom: -80px;
 }
 
 @media (min-width: 768px) {
