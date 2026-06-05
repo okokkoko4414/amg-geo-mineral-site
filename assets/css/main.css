@@ -34,11 +34,11 @@
   --color-success: #2E7D32;
   --color-error: #C62828;
 
-  /* Typography — Brand: Inter (UI), DM Serif Display (headlines), JetBrains Mono (data) */
-  --font-heading: 'DM Serif Display', Georgia, 'Times New Roman', serif;
-  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+  /* Typography — Brand: IBM Plex Sans (body), Crimson Pro (headlines), IBM Plex Mono (data) */
+  --font-heading: 'Crimson Pro', Georgia, 'Times New Roman', serif;
+  --font-body: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
-  --font-mono: 'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+  --font-mono: 'IBM Plex Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
 
   --text-xs: 0.75rem;
   --text-sm: 0.875rem;
@@ -303,20 +303,15 @@ p {
 }
 
 .nav__logo {
-  font-family: var(--font-heading);
-  font-size: var(--text-xl);
-  font-weight: 700;
-  color: var(--color-geode-white);
-  letter-spacing: 0.02em;
-  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
 }
 
-.nav__logo:hover {
-  color: var(--color-ore-gold);
-}
-
-.nav__logo-accent {
-  color: var(--color-ore-gold);
+.nav__logo-img {
+  display: block;
+  height: 40px;
+  width: auto;
 }
 
 .nav__toggle {
@@ -1197,20 +1192,15 @@ p {
 }
 
 .footer__brand {
-  font-family: var(--font-heading);
-  font-size: var(--text-2xl);
-  font-weight: 700;
-  color: var(--color-white);
-  margin-bottom: var(--space-3);
   display: block;
+  margin-bottom: var(--space-3);
+  text-decoration: none;
 }
 
-.footer__brand:hover {
-  color: var(--color-ore-gold);
-}
-
-.footer__brand-accent {
-  color: var(--color-ore-gold);
+.footer__brand-img {
+  display: block;
+  height: 32px;
+  width: auto;
 }
 
 .footer__about {

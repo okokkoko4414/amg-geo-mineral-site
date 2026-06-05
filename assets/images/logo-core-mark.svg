@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="stratum1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2C3E2D"/>
+      <stop offset="100%" stop-color="#1A7A6B"/>
+    </linearGradient>
+    <clipPath id="hexClip">
+      <polygon points="200,20 347,110 347,290 200,380 53,290 53,110"/>
+    </clipPath>
+  </defs>
+
+  <!-- Hexagon outline -->
+  <polygon points="200,20 347,110 347,290 200,380 53,290 53,110"
+           fill="none" stroke="#2C3E2D" stroke-width="4"/>
+
+  <!-- Inner hexagon ring -->
+  <polygon points="200,48 323,126 323,274 200,352 77,274 77,126"
+           fill="none" stroke="#2C3E2D" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- Strata line 1 (top) - Deep Earth to Mineral Teal gradient -->
+  <g clip-path="url(#hexClip)">
+    <rect x="53" y="120" width="294" height="8" fill="url(#stratum1)" rx="2"/>
+  </g>
+
+  <!-- Strata line 2 (middle) - Slate Gray -->
+  <g clip-path="url(#hexClip)">
+    <rect x="53" y="180" width="294" height="8" fill="#5B6770" rx="2"/>
+  </g>
+
+  <!-- Strata line 3 (bottom) - Seismic Blue -->
+  <g clip-path="url(#hexClip)">
+    <rect x="53" y="240" width="294" height="8" fill="#3B6B8A" rx="2"/>
+  </g>
+
+  <!-- Cross-cutting vertical fault line (subtle geological detail) -->
+  <g clip-path="url(#hexClip)">
+    <line x1="220" y1="20" x2="210" y2="380" stroke="#5B6770" stroke-width="1" opacity="0.25"/>
+  </g>
+
+  <!-- Concentric arc suggesting seismic mapping -->
+  <path d="M 120,200 Q 160,160 200,160 Q 240,160 280,200"
+        fill="none" stroke="#3B6B8A" stroke-width="1.5" opacity="0.2"/>
+  <path d="M 100,220 Q 150,180 200,180 Q 250,180 300,220"
+        fill="none" stroke="#3B6B8A" stroke-width="1" opacity="0.15"/>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400">
+  <defs>
+    <style>
+      .rv-company-name { font-family: 'Inter', 'Arial', 'Helvetica', sans-serif; font-weight: 700; font-size: 56px; fill: #FFFFFF; }
+      .rv-tagline { font-family: 'Inter', 'Arial', 'Helvetica', sans-serif; font-weight: 400; font-size: 18px; fill: rgba(255,255,255,0.65); letter-spacing: 0.05em; }
+      .rv-sub-text { font-family: 'Inter', 'Arial', 'Helvetica', sans-serif; font-weight: 500; font-size: 20px; fill: #C9953C; }
+    </style>
+  </defs>
+
+  <!-- Core Mark (left side) - Reversed -->
+  <g transform="translate(40, 40) scale(0.7)">
+    <defs>
+      <linearGradient id="rswg1" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#FFFFFF"/>
+        <stop offset="100%" stop-color="#C9953C"/>
+      </linearGradient>
+      <clipPath id="rhexClip2">
+        <polygon points="200,20 347,110 347,290 200,380 53,290 53,110"/>
+      </clipPath>
+    </defs>
+    <polygon points="200,20 347,110 347,290 200,380 53,290 53,110"
+             fill="none" stroke="#FFFFFF" stroke-width="4"/>
+    <polygon points="200,48 323,126 323,274 200,352 77,274 77,126"
+             fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity="0.3"/>
+    <g clip-path="url(#rhexClip2)">
+      <rect x="53" y="120" width="294" height="8" fill="url(#rswg1)" rx="2"/>
+      <rect x="53" y="180" width="294" height="8" fill="rgba(255,255,255,0.6)" rx="2"/>
+      <rect x="53" y="240" width="294" height="8" fill="rgba(255,255,255,0.4)" rx="2"/>
+    </g>
+  </g>
+
+  <!-- Wordmark section (right side) - Reversed -->
+  <g transform="translate(280, 140)">
+    <!-- AMG -->
+    <text x="0" y="0" class="rv-company-name">AMG</text>
+    <!-- Dash separator -->
+    <line x1="255" y1="-12" x2="255" y2="8" stroke="#C9953C" stroke-width="3" opacity="0.6"/>
+    <!-- GEO -->
+    <text x="275" y="0" class="rv-company-name" fill="#C9953C">GEO</text>
+    <!-- Dash separator -->
+    <line x1="430" y1="-12" x2="430" y2="8" stroke="#C9953C" stroke-width="3" opacity="0.6"/>
+    <!-- Mineral -->
+    <text x="450" y="0" class="rv-company-name">Mineral</text>
+
+    <!-- Subtitle -->
+    <text x="0" y="45" class="rv-sub-text">Advanced Mineral Group</text>
+
+    <!-- Tagline -->
+    <text x="0" y="90" class="rv-tagline">Exploring Deeper. Discovering More.</text>
+
+    <!-- Decorative line -->
+    <line x1="0" y1="65" x2="320" y2="65" stroke="#C9953C" stroke-width="1.5" opacity="0.4"/>
+  </g>
+</svg>

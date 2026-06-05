@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/about/", "destination": "/about/mineral-exploration-company/" },
+    { "source": "/services", "destination": "/pages/services" },
+    { "source": "/contact", "destination": "/pages/contact" }
+  ],
+  "cleanUrls": true
+}
